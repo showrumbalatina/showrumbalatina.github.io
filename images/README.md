@@ -3,7 +3,7 @@
 Este directorio contiene las imágenes optimizadas para producción (`AVIF`, `WebP`, `JPG`), el banner para redes sociales (`og-image.jpg`, < 300 KB para WhatsApp) y los códigos QR imprimibles (`qr-showrumbalatina.svg` / `.png`).
 
 ## Cómo reemplazar las imágenes atmosféricas por fotos reales de la orquesta
-Si Jesús "Beto" Rojas Ochoa entrega fotografías oficiales de presentaciones en vivo:
+Si Jesús Alberto Rojas Ochoa entrega fotografías oficiales de presentaciones en vivo:
 
 1. Coloca tus fotos crudas en una carpeta temporal y ejecútalas con Pillow o reemplaza directamente manteniendo exactamente los nombres y dimensiones:
    - **Portada Hero (`1600×900` y `800×450`):**
