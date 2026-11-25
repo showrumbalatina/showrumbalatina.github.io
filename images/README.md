@@ -1,6 +1,6 @@
 # Imágenes de Show Rumba Latina
 
-Este directorio contiene las imágenes optimizadas para producción (`AVIF`, `WebP`, `JPG`), el banner para redes sociales (`og-image.png`) y los códigos QR imprimibles (`qr-showrumbalatina.svg` / `.png`).
+Este directorio contiene las imágenes optimizadas para producción (`AVIF`, `WebP`, `JPG`), el banner para redes sociales (`og-image.jpg`, < 300 KB para WhatsApp) y los códigos QR imprimibles (`qr-showrumbalatina.svg` / `.png`).
 
 ## Cómo reemplazar las imágenes atmosféricas por fotos reales de la orquesta
 Si Jesús "Beto" Rojas Ochoa entrega fotografías oficiales de presentaciones en vivo:
@@ -14,8 +14,8 @@ Si Jesús "Beto" Rojas Ochoa entrega fotografías oficiales de presentaciones en
      - `event-quince.{avif,webp,jpg}` (Quinceañeros & Promociones)
      - `event-patronal.{avif,webp,jpg}` (Fiestas Patronales & Aniversarios)
      - `event-corporate.{avif,webp,jpg}` (Corporativos, Cenas & Serenatas)
-   - **Banner WhatsApp / Facebook (`1200×630`):**
-     - `og-image.png`
+   - **Banner WhatsApp / Facebook (`1200×630`, JPEG < 300 KB):**
+     - `og-image.jpg`
 2. Regenera los archivos y publica con costo $0:
    ```powershell
    npm run deploy:all
