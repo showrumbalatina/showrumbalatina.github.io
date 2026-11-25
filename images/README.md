@@ -30,3 +30,7 @@ Las fotografías atmosféricas de escenario y eventos provienen de **Wikimedia C
 * **`event-patronal`**: `Beach-Please-2022-crowd-stage-lights-night-performance.jpg` (Licencia **CC BY-SA 4.0**)
 * **`event-corporate`**: `Músico_con_Guitarra_Requinto.jpg` (Licencia **CC BY 4.0**)
 
+## Documentos Institucionales Oficiales
+* **`diploma-congreso.{avif,webp,jpg}`** (`677×1024`): Diploma de Reconocimiento emitido el **26 de febrero de 2026** por la **Oficina de Enlace con los Gobiernos Regionales y Locales del Congreso de la República** a favor del Grupo Musical *"Show Rumba Latina"* (documento físico oficial propiedad de Show Rumba Latina).
+
+
