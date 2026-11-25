@@ -2,13 +2,28 @@
 <html lang="es">
 <head>
   <meta charset="UTF-8">
-  <meta http-equiv="refresh" content="0; url=./">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Redirigiendo a Show Rumba Latina...</title>
   <script>
-    window.location.replace('./');
+    (function () {
+      var target = window.location.hostname === 'showrumbalatina.github.io'
+        ? '/'
+        : '/showrumbalatina/';
+      if (window.location.pathname !== target) {
+        window.location.replace(target);
+      }
+    })();
   </script>
 </head>
-<body style="background-color: #0a0a0f; color: #f1f5f9; font-family: sans-serif; text-align: center; padding-top: 20vh;">
-  <p>Redirigiendo a <a href="./" style="color: #fdc012;">Show Rumba Latina</a>...</p>
+<body style="background-color: #0a0a0f; color: #f1f5f9; font-family: system-ui, sans-serif; text-align: center; padding: 20vh 1rem;">
+  <h1 style="color: #fed542; font-size: 1.5rem; margin-bottom: 0.75rem;">Show Rumba Latina</h1>
+  <p style="color: #cbd5e1; margin-bottom: 1.25rem;">Esta página no existe. Regresa al portal oficial:</p>
+  <a href="/" id="fallback-home" style="color: #0a0a0f; background: #fed542; padding: 0.75rem 1.5rem; border-radius: 9999px; text-decoration: none; font-weight: 700;">
+    Ir a Show Rumba Latina
+  </a>
+  <script>
+    document.getElementById('fallback-home').href =
+      window.location.hostname === 'showrumbalatina.github.io' ? '/' : '/showrumbalatina/';
+  </script>
 </body>
 </html>
